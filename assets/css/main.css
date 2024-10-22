@@ -1,0 +1,24 @@
+:root {
+  --fb-primary: #98AFFF;
+  --fb-offwhite: #FFF1E3;
+
+  --fb-header-0: 48px;
+  --fb-header-1: 36px;
+  --fb-header-2: 32px;
+  --fb-header-3: 24px;
+  --fb-header-4: 20px;
+
+  --fb-body: 16px;
+  --fb-span: 12px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  font-family: 'DM Sans', sans-serif;
+  font-size: var(--fb-body);
+}
