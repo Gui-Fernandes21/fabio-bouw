@@ -10,6 +10,8 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "firebase-functions": "^6.1.0",
+    "firebase-tools": "^13.22.1",
     "nuxt": "^3.13.0",
     "vue": "latest",
     "vue-router": "latest"
