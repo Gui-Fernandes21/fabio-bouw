@@ -22,3 +22,8 @@ p {
   font-family: 'DM Sans', sans-serif;
   font-size: var(--fb-body);
 }
+
+h1 {
+  font-size: var(--fb-header-1);
+  font-family: 'DM Serif Display';
+}

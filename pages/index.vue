@@ -2,8 +2,12 @@
 
 <template>
 	<TheNav></TheNav>
-  <TheBanner />
+  <TheBanner></TheBanner>
+  
   <HomeAbout />
+  <HomeValues />
+
+  <TheFooter></TheFooter>
 </template>
 
 <style scoped></style>
