@@ -20,12 +20,9 @@
 </template>
 
 <style scoped>
-.about {
-  padding: 2rem;
-}
 header {
   /* width: 100%; */
-
+  
   h1 {
     display: inline-block;
     font-size: var(--fb-header-1);
@@ -35,7 +32,7 @@ header {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
   place-items: center;
-  padding: 1rem 0;
+  padding: 1rem 2rem;
 
   & > img {
     height: 10rem;

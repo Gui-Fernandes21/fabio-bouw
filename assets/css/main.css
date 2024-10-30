@@ -1,6 +1,7 @@
 :root {
   --fb-primary: #98AFFF;
   --fb-offwhite: #FFF1E3;
+  --fb-white: #fdfdfdc5;
 
   --fb-header-0: 48px;
   --fb-header-1: 36px;
@@ -26,4 +27,17 @@ p {
 h1 {
   font-size: var(--fb-header-1);
   font-family: 'DM Serif Display';
+}
+
+header {
+  padding: 0 2rem 2rem;
+
+  & > h1 {
+    display: inline-block;
+    border-bottom: 2px solid var(--fb-primary);
+  }
+}
+
+section {
+  margin: 2rem 0;
 }

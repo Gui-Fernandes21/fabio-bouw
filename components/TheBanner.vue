@@ -15,6 +15,7 @@
 
 <style scoped>
 .banner {
+  margin: 0;
   width: 100%;
   position: relative;
 }

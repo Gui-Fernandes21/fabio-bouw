@@ -12,6 +12,8 @@ section {
   height: 12rem;
   background: var(--fb-primary);
 
+  margin-bottom: 0;
+
   display: flex;
   flex-direction: column;
   justify-content: center;

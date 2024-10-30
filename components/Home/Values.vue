@@ -41,14 +41,7 @@
   z-index: 0;
   top: 40%;
 }
-header {
-  padding: 0 2rem 2rem;
 
-  & > h1 {
-    display: inline-block;
-    border-bottom: 2px solid var(--fb-primary);
-  }
-}
 
 .card-container {
   display: flex;
@@ -67,7 +60,7 @@ header {
   padding: 1rem;
   
   height: 100%;
-  background: rgba(253, 253, 253, 0.773);
+  background: #fdfdfdc5;
   border-radius: 10px;
 
   transition: transform 200ms ease-in-out;

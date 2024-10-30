@@ -6,6 +6,7 @@
   
   <HomeAbout />
   <HomeValues />
+  <HomeServices />
 
   <TheFooter></TheFooter>
 </template>
