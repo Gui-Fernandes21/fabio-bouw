@@ -10,17 +10,17 @@
       <div class="card-container">
         <div class="card">
           <img src="/images/quality-picture.png" alt="quality picture" />
-          <h2 class="title">Qualité</h2>
+          <h3 class="title">Qualité</h3>
           <p class="description">Nous utilisons uniquement des matériaux de haute qualité et des techniques éprouvées pour garantir la durabilité et la solidité de nos réalisations.</p>
         </div>
         <div class="card">
           <img src="/images/reliability-picture.png" alt="reliability picture" />
-          <h2 class="title">Fiabilité</h2>
+          <h3 class="title">Fiabilité</h3>
           <p class="description">Nous nous engageons à respecter les délais et à honorer nos engagements envers nos clients.</p>
         </div>
         <div class="card">
           <img src="/images/professional-picture.png" alt="professional picture" />
-          <h2 class="title">Professionnalisme</h2>
+          <h3 class="title">Professionnalisme</h3>
           <p class="description">Notre équipe travaille avec intégrité, transparence, et un service client irréprochable.</p>
         </div>
       </div>
@@ -65,7 +65,7 @@
 
   transition: transform 200ms ease-in-out;
 
-  & > h2 {
+  & > h3 {
     font-family: 'DM Serif Display', sans-serif;
     font-size: var(--fb-header-3);
   }

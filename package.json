@@ -8,7 +8,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "build:deploy": "nuxt build --preset=firebase && firebase-tools deploy"
+    "build:deploy": "nuxt build --preset=firebase && npx firebase-tools deploy"
   },
   "dependencies": {
     "firebase-functions": "^6.1.0",

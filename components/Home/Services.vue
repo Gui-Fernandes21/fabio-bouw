@@ -78,6 +78,7 @@
   & > img {
     width: 50%;
     height: 15rem;
+    border-radius: 5px;
   }
 }
 
@@ -94,6 +95,7 @@
 
   & > h3 {
     font-size: var(--fb-header-3);
+    font-family: 'DM Serif Display', sans-serif;
   }
 } 
 
