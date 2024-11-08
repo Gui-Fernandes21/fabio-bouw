@@ -7,8 +7,7 @@
         <span>?</span>
       </header>
       <p>
-        En choisissant nous, vous optez pour un partenaire de confiance pour vos projets de construction. Nous mettons un point 
-        d’honneur à offrir des solutions personnalisées, adaptées à chaque projet, avec une attention particulière aux détails et
+        En choisissant nous, vous optez pour un partenaire de confiance pour vos projets de construction. Nous mettons un point d’honneur à offrir des solutions personnalisées, adaptées à chaque projet, avec une attention particulière aux détails et
         aux finitions.
       </p>
     </div>
@@ -26,11 +25,11 @@ section {
   margin: 8rem 2rem;
 }
 
-  p {
-    width: 80%;
-    margin: 0 auto;
-    font-weight: 200;
-  }
+p {
+  width: 80%;
+  margin: 0 auto;
+  font-weight: 200;
+}
 
 header {
   position: relative;
@@ -40,7 +39,7 @@ header {
   display: flex;
   flex-direction: column;
 
-  font-family: "DM Serif Display", sans-serif;
+  font-family: 'DM Serif Display', sans-serif;
 
   h1 {
     border: none;
