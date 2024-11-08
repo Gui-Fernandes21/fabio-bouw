@@ -13,6 +13,19 @@
   --fb-span: 12px;
 }
 
+@media screen and (max-width: 768px) {
+  :root {
+    --fb-header-0: 48px;
+    --fb-header-1: 36px;
+    --fb-header-2: 32px;
+    --fb-header-3: 24px;
+    --fb-header-4: 20px;
+  
+    --fb-body: 16px;
+    --fb-span: 12px;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
