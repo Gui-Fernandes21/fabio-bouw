@@ -1,6 +1,5 @@
 <template>
-
-<img src="/svg/horizontal-lines.svg" alt="Horizontal lines" />
+  <img src="/svg/horizontal-lines.svg" alt="Horizontal lines" />
   <section class="about">
     <header>
       <h1>À propos de nous</h1>
@@ -17,3 +16,9 @@
     </div>
   </section>
 </template>
+
+<style scoped>
+.grid {
+  padding: 0 2rem;
+}
+</style>

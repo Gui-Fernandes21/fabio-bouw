@@ -14,11 +14,11 @@
 </template>
 
 <style scoped>
-<div class="text-section">
-      <p class="slogan">Solidité et précision, <br> Du toit aux murs.</p>
-      <h1>Fabio Bouw</h1>
-      <p class="expert">Experts en pose de Gyproc® <br> à Bruxelles et ses alentours</p>
-    </div>
+.banner {
+  margin: 0;
+  width: 100%;
+  position: relative;
+}
 
 .img-section {
   display: flex;

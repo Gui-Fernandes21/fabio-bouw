@@ -24,9 +24,11 @@ img {
   top: 40%;
 }
 .cta-wrapper {
-  width: 50%;
+  width: 90%;
   background-color: var(--fb-primary);
   border-radius: 10px;
+
+  text-align: center;
 
   display: flex;
   flex-direction: column;

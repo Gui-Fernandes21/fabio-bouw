@@ -1,6 +1,6 @@
 :root {
-  --fb-primary: #98AFFF;
-  --fb-offwhite: #FFF1E3;
+  --fb-primary: #98afff;
+  --fb-offwhite: #fff1e3;
   --fb-white: #fdfdfdc5;
 
   --fb-header-0: 48px;
@@ -15,12 +15,12 @@
 
 @media screen and (max-width: 768px) {
   :root {
-    --fb-header-0: 48px;
-    --fb-header-1: 36px;
-    --fb-header-2: 32px;
-    --fb-header-3: 24px;
-    --fb-header-4: 20px;
-  
+    --fb-header-0: 36px;
+    --fb-header-1: 32px;
+    --fb-header-2: 34px;
+    --fb-header-3: 20px;
+    --fb-header-4: 18px;
+
     --fb-body: 16px;
     --fb-span: 12px;
   }
@@ -48,6 +48,26 @@ header {
   & > h1 {
     display: inline-block;
     border-bottom: 2px solid var(--fb-primary);
+  }
+}
+
+.btn {
+  background: none;
+  border: 2px solid var(--fb-offwhite);
+  border-radius: 5px;
+  cursor: pointer;
+  color: var(--fb-offwhite);
+
+  font-family: 'DM Sans', sans-serif;
+  font-size: var(--fb-body);
+
+  padding: 1rem 4rem;
+
+  transition: all 150ms ease-in-out;
+
+  &:hover {
+    background: var(--fb-offwhite);
+    color: var(--fb-primary);
   }
 }
 

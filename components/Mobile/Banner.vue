@@ -7,6 +7,7 @@
     <div class="text-section">
       <p class="slogan">Solidité et précision, <br> Du toit aux murs.</p>
       <p class="expert">Experts en pose de Gyproc® <br> à Bruxelles et ses alentours</p>
+      <button class="btn">Contacter Nous</button>
     </div>
   </section>
 </template>
@@ -26,14 +27,14 @@
 
 .text-section {
   position: absolute;
-  bottom: -10rem;
-  left: 2rem;
+  bottom: -7rem;
+  left: 1.5rem;
   height: 90%;
   width: 65%;
   background-color: var(--fb-primary);
   color: var(--fb-offwhite);
   border-radius: 10px;
-  padding: 5rem 1rem;
+  padding: 3rem 1rem;
 
   text-align: center;
 
@@ -58,5 +59,8 @@
     font-size: var(--fb-header-1);
     border-bottom: 2px solid var(--fb-primary);
   }
+}
+button {
+  padding: .8rem 3rem;
 }
 </style>
