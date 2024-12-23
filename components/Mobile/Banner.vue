@@ -1,3 +1,13 @@
+<script setup lang="ts">
+import { useRouter } from 'vue-router';
+
+const router = useRouter();
+
+const contactPage = () => {
+  router.push('/contact');
+};
+</script>
+
 <template>
   <section class="banner">
     <div class="img-section">
@@ -7,7 +17,7 @@
     <div class="text-section">
       <p class="slogan">Solidité et précision, <br> Du toit aux murs.</p>
       <p class="expert">Experts en pose de Gyproc® <br> à Bruxelles et ses alentours</p>
-      <button class="btn">Contacter Nous</button>
+      <button class="btn" @click="contactPage">Contacter Nous</button>
     </div>
   </section>
 </template>

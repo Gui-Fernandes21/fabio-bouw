@@ -1,10 +1,19 @@
-<template>
+<script setup lang="ts">
+import { useRouter } from 'vue-router';
 
+const router = useRouter();
+
+const contactPage = () => {
+  router.push('/contact');
+};
+</script>
+
+<template>
   <section class="cta">
     <img src="/svg/horizontal-lines.svg" alt="horizontal lines">
     <div class="cta-wrapper">
       <h1>Demande de devis gratuit</h1>
-      <button class="btn">Contacter nous</button>
+      <button class="btn" @click="contactPage">Contacter nous</button>
     </div>
   </section>
 

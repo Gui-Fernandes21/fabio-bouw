@@ -28,7 +28,7 @@
           </div>
         </div>
       </div>
-      <img src="/svg/horizontal-lines.svg" alt="horizontal lines" />
+      <img src="/svg/horizontal-lines.svg" class="horizontal-lines" alt="horizontal lines" />
       <div class="row">
         <div class="card">
           <img src="/images/mezzanine-work.jpg" alt="mezzanine work" />
