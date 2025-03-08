@@ -2,7 +2,7 @@
   <section class="footer">
     <img src="/images/fabio-bouw-white.png" alt="FB logo" />
     <p>© 2024 Fabio Bouw. All Rights Reserved</p>
-    <span>Designed & Developed by <a href="www.gui-fernandes.com" target="_blank">Gui Fernandes</a></span>
+    <span>Designed & Developed by <a href="https://gui-fernandes-web.web.app/" target="_blank">Gui Fernandes</a></span>
   </section>
 </template>
 
